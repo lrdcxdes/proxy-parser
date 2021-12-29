@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "   *** Script made by lordcodes"
-python -m pip install -r requirements.txt --no-index --find-links file:///tmp/packages
-python run.py
+pip3 install lxml beautifulsoup4 requests rich
+python3 run.py
